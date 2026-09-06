@@ -1,0 +1,36 @@
+name: oxygen_erfan
+
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 2.1.0+102
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  shared_preferences: ^2.2.3
+  http: ^1.6.0
+  image_picker: ^1.1.2
+  file_picker: ^8.1.7
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/login_hero.png
+    - assets/images/oxigen_logo_gold.png
+    - assets/images/oxigen_shield_mark.png
